@@ -1,5 +1,5 @@
 # Ascii Faces E-Commerce Site
-> This is an ecommerce site, where you can buy all sorts of ascii faces like `(ノ・∀・)ノ` and `¯_(ツ)_/¯`, in a wide variety of font sizes. The homepage should display a list of products for people to browse.
+> This is an ecommerce site, where you can buy all sorts of ascii faces like `(ノ・∀・)ノ` and `¯_(ツ)_/¯`, in a wide variety of font sizes. 
 
 ## Getting Started
 
@@ -13,9 +13,9 @@
 ### Start Application
 
 - Clone project and cd into it
-- Install all dependencies `npm install`
+- Install all dependencies `npm install`. N.B. React client has been bundled into JSON server. Hence, no need to install its dependencies.
 - Run `npm start` to start the application
-- Access the application on [http:localhost:3000](http:localhost:3000)
+- Access the application on [http://localhost:3000](http://localhost:3000)
 
 ### Features
 
