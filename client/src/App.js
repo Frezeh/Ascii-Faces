@@ -2,6 +2,7 @@ import { createContext, useState } from "react";
 import { CssBaseline } from "@material-ui/core";
 import Intro from "./components/Intro";
 import { InfiniteScroll } from "./components/InfiniteScroll";
+import NavBar from "./components/NavBar";
 
 export const AppContext = createContext(null);
 
@@ -28,6 +29,7 @@ export default function App() {
       }}
     >
       <CssBaseline />
+      <NavBar />
       <Intro />
       <InfiniteScroll />
     </AppContext.Provider>
